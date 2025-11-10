@@ -35,6 +35,7 @@ const AddProduct = () => {
     };
     dispatch({ type: "ADD", payload: newProduct });
     navigate("/");
+    alert("Thêm sản phẩm thành công!");
   };
 
   return (
